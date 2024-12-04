@@ -11,6 +11,14 @@ public class Datatypes {
         char myGrade = 'B';  // 2 bytes	Stores a single character/letter or ASCII values
 
         String name = "Thilipan";
+        //To declare an array, define the variable type with square brackets
+
+        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        int[] myNumArray = {10, 20, 30, 40};
+        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} }; //multi-dimensional array
+        System.out.println(myNumbers[1][2]); //Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+        System.out.println(cars[0]); //Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+        System.out.println(cars.length); // find out how many elements an array has, use the length
 
         System.out.println(myNum);
         System.out.println(myNumByte);
@@ -24,3 +32,8 @@ public class Datatypes {
         System.out.println(name);
     }
 }
+//Widening Casting (automatically) - converting a smaller type to a larger type size
+//byte -> short -> char -> int -> long -> float -> double
+//
+//Narrowing Casting (manually) - converting a larger type to a smaller size type
+//double -> float -> long -> int -> char -> short -> byte

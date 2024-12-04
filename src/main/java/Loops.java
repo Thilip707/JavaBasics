@@ -35,5 +35,18 @@ public class Loops {
              */
             System.out.println(number + " x " + j + " = " + (number * j));
         }
+        for (int k = 0; k < 10; k++) {
+            if (k == 4) {
+                break; //break statement can also be used to jump out of a loop
+            }
+            System.out.println(k); //This example stops the loop when k is equal to 4:
+        }
+        //continue
+        for (int l = 0; l < 10; l++) {
+            if (l == 4) {
+                continue; //This example skips the value of 4:
+            }
+            System.out.println(l);
+        }
     }
 }

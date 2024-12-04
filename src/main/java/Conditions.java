@@ -8,7 +8,10 @@ public class Conditions {
         } else {
             System.out.println("Good evening."); //none of the above is correct this will execute
         }
-
+        //Ternery operator
+        int timeTernary = 20;
+        String result = (timeTernary < 18) ? "Good day." : "Good evening.";
+        System.out.println(result);
         //switch case
         int day = 4;
         switch (day) {
